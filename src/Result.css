@@ -1,0 +1,108 @@
+.results-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .results-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .result-box {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .result-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 10px;
+  }
+  
+  .result-header h3 {
+    margin: 0;
+    color: #2c3e50;
+  }
+  
+  .section-label {
+    background-color: #3498db;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.8em;
+  }
+  
+  .prize-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .prize {
+    flex: 1;
+    margin: 0 10px;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+  }
+  
+  .prize-rank {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .prize-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .prize-details strong {
+    font-size: 1.1em;
+  }
+  
+  .group-label {
+    font-size: 0.9em;
+    color: #7f8c8d;
+    margin-top: 5px;
+  }
+  
+  .first-prize {
+    background-color: #f39c12;
+    color: white;
+  }
+  
+  .second-prize {
+    background-color: #2980b9;
+    color: white;
+  }
+  
+  .third-prize {
+    background-color: #27ae60;
+    color: white;
+  }
+  
+  .no-results-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f8f9fa;
+  }
+  
+  .no-results-container h2 {
+    color: #6c757d;
+    margin-bottom: 20px;
+  }
+  
+  .no-results-container p {
+    color: #868e96;
+  }
