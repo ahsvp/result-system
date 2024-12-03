@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Graph from './Graph';
-import Result from './Result';
-import AdminLogin from './AdminLogin';
-import AdminPage from './AdminPage';
+import Graph from './graph/Graph';
+import Result from './result/Result';
+import AdminLogin from './login/AdminLogin';
+import AdminPage from './login/AdminPage';
 import './App.css';
 
 function App() {

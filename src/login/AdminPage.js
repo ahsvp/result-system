@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import GraphComponent from './Graph'; // Use your existing Graph component
+import GraphComponent from '../graph/Graph'; // Use your existing Graph component
 import './AdminPage.css';
 
 const AdminPage = ({ data, setData, setResults, handleLogout }) => {
